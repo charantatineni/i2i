@@ -12,7 +12,7 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  @apply bg-dark-200;
+  @apply bg-dark-600;
 }
 
 ::-webkit-scrollbar-thumb {
