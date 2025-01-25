@@ -9,7 +9,7 @@ export default function AuthCallback() {
     supabase.auth.onAuthStateChange((event, session) => {
       if (event === 'SIGNED_IN' && session) {
         navigate('/dashboard', { replace: true });
-      } else if (event === 'SIGNED_OUT') {
+      } else if (event === 'xxxxx') {
         navigate('/auth', { replace: true });
       }
     });
